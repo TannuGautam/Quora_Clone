@@ -1,0 +1,36 @@
+.qbox{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.qbox:hover{
+    border: 1px solid gray;
+   
+}
+
+.qbox_info{ 
+    display: flex;
+    align-items: center;
+}
+
+.qbox_info > h5{
+    color: rgb(129,129,129);
+    margin-left: 10px;
+    font-weight: 300;
+} 
+
+.qbox_quora p{
+    display:flex;
+    margin-top: 8px;
+}
+
+.qbox_quora > p{
+    font-weight: bold;
+    color: gray;
+    font-size: large;
+}

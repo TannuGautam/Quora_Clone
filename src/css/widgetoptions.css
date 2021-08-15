@@ -1,0 +1,30 @@
+.widgetoptions{
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+}
+
+.widgetoption{
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    border-bottom: 1px solid lightgray;
+}
+
+.widgetoption > img{
+   height: 30px;
+   border-radius: 5px;
+}
+
+.widgetoption_title{
+    margin-left: 10px;
+}
+
+.widgetoption_title > h5{
+    color: rgb(70, 68, 68);
+}
+
+.widgetoption_title > p{
+    color: gray;
+    font-size: small;
+}
